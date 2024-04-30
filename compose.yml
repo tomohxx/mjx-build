@@ -1,0 +1,7 @@
+services:
+  mjx:
+    build:
+      context: .
+    volumes:
+      - .:/tmp
+    command: cp -r mjx/dist /tmp
